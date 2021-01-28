@@ -8,4 +8,6 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 Make sure you unzip the file and that the working directory has the "UCI HAR Dataset" folder.
 
+I've also included a CodeBook.md that gives more information about the generated tidy dataset file.
+
 Besides that, it's a pretty simple script where I've included comments.
