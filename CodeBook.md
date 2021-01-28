@@ -44,11 +44,11 @@ Number of variables            68
 Label   Variable                         Class         # unique  Missing  Description  
                                                          values                        
 ------- -------------------------------- ----------- ---------- --------- -------------
-        **[subjectid]**                  integer             30  0.00 %                
+        **[subjectid]**                  integer             30  0.00 %   The subject ID         
 
-        **[activity]**                   character            6  0.00 %                
+        **[activity]**                   character            6  0.00 %   Activity             
 
-        **[tBodyAccmeanX]**              numeric            180  0.00 %                
+        **[tBodyAccmeanX]**              numeric            180  0.00 %   For this and subsequent variables, please refer to the data Readme.             
 
         **[tBodyAccmeanY]**              numeric            180  0.00 %                
 
