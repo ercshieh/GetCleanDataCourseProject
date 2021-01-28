@@ -58,4 +58,9 @@ ave_tidy_df <- aggregate(. ~ subjectid + activity,data=combined_data,mean)
 # Write out the tidy data set per instructions
 write.table(ave_tidy_df, "tidy_dataset.txt", row.names=FALSE)
 
+# Some code to automate a codebook. However, I believe this code book is 
+# different from what the assignment is asking. But cool none-the-less, so I'm
+# keeping it here in case I may want to refer to it later.
+library(dataMaid)
+makeCodebook(ave_tidy_df)
 
